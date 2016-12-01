@@ -52,3 +52,23 @@ p {
 
     width: 150px;
 }
+
+#menu {
+    display: inline-block;
+    
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline;
+    
+    margin-left: 15px;
+
+    font-family: "ff-enzo-web",tahoma,sans-serif;
+    font-size: 1.7em;
+}
