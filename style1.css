@@ -125,13 +125,18 @@ div .count {
 }
 
 #styles {
+    display: inline;
+    list-style-type: none;
+}
+
+#category {
     display: inline-block;
 
     list-style-type: none;
     margin-left: 120px;
 }
 
-li {
+#category li {
     display: inline-block;
 
     margin-left: 50px;
