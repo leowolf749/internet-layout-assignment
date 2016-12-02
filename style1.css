@@ -14,7 +14,7 @@ body {
 
 
 .free {
-    margin-left: 30px;
+    margin-left: 60px;
 
     
     background-color: darkred;
@@ -50,7 +50,7 @@ p {
 
 .logo {
     display: inline-block;
-    margin-left: 28px;
+    margin-left: 58px;
     padding: 0px;
 
     width: 150px;
@@ -61,6 +61,7 @@ p {
 
     width: 500px;
     margin-top: 60px;
+    margin-left: 35px;
 
     padding: 0px;
     
@@ -78,4 +79,69 @@ p {
 
 .nav > * {
     vertical-align: top;
+}
+
+#cart{
+    display: inline-block;
+
+    width: 110px;
+    height: 35px;
+    margin-top: 60px;
+    margin-left: 120px;
+
+
+    border: 1px solid lightgray;
+
+}
+
+
+div .count {
+    background-color: lightgray;
+    padding: 0px;
+
+    vertical-align: middle;
+
+}
+
+.cart, .count, #cart p {
+    display: inline;
+    color: dimgray;
+
+    width: 1.2em;
+    margin: 0px;
+
+    vertical-align: middle;
+    text-align: center;
+
+    padding: 7px;
+}
+
+/* Ties */
+
+.ties {
+    display: block;
+    background-color: whitesmoke;
+
+}
+
+#styles {
+    display: inline-block;
+
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+li {
+    display: inline-block;
+
+    margin-left: 50px;
+}
+
+h1 {
+    display: block;
+
+    padding-bottom: 50px;
+
+    font-size: 4em;
+    text-align: center;
 }
