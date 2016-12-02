@@ -2,9 +2,9 @@ body {
     margin: 0px;
 }
 
-/* This styles the first row on the screen */
+/* This styles the sale bar at the top */
 
-.one {
+.sale {
     display: flex;
 
     background-color: orangered;
@@ -14,7 +14,7 @@ body {
 
 
 .free {
-    margin-left: 90px;
+    margin-left: 30px;
 
     
     background-color: darkred;
@@ -40,14 +40,17 @@ p {
     color: white;
 }
 
-/* Second row */
+/* Logo, Nav bar, Sign In */
 
-.two {
-    display: inline-block;
+.nav {
+    display: block;
+
+    height: 150px;
 }
 
 .logo {
-    margin-left: 85px;
+    display: inline-block;
+    margin-left: 28px;
     padding: 0px;
 
     width: 150px;
@@ -55,20 +58,24 @@ p {
 
 #menu {
     display: inline-block;
-    
+
+    width: 500px;
+    margin-top: 60px;
+
     padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 30px;
     
     list-style-type: none;
 }
 
 #menu li {
-    display: inline;
-    
-    margin-left: 15px;
+    display: inline-block;
+
+    margin-left: 20px;
 
     font-family: "ff-enzo-web",tahoma,sans-serif;
-    font-size: 1.7em;
+    font-size: 1.5em;
+}
+
+.nav > * {
+    vertical-align: top;
 }
