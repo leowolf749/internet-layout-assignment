@@ -125,21 +125,38 @@ div .count {
 }
 
 #styles {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
+
+    margin-left: 50px;
+}
+
+#styles li {
+    display: inline-block;
+    
+    margin: 0px;
+    
+    width: .2%;
+    padding: 50px;
+    padding-top: 0px;
+
+    vertical-align: top;
 }
 
 #category {
     display: inline-block;
 
     list-style-type: none;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 #category li {
     display: inline-block;
 
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 35px;
+    padding-left: 22px;
+
 }
 
 h1 {
