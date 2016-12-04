@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: "ff-enzo-web",tahoma,sans-serif;
 }
 
 /* This styles the sale bar at the top */
@@ -35,7 +36,6 @@ p {
     margin-left: 15px;
 
     font-size: .85em;
-    font-family: "ff-enzo-web",tahoma,sans-serif;
 
     color: white;
 }
@@ -73,8 +73,8 @@ p {
 
     margin-left: 20px;
 
-    font-family: "ff-enzo-web",tahoma,sans-serif;
     font-size: 1.5em;
+    font-weight: lighter;
 }
 
 .nav > * {
@@ -91,6 +91,7 @@ p {
 
 
     border: 1px solid lightgray;
+    border-radius: 3px;
 
 }
 
@@ -128,43 +129,38 @@ div .count {
     display: inline-block;
     list-style-type: none;
 
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 120px;
 }
 
 #styles li {
-    display: inline-block;
+    float: left;
     
     margin: 0px;
     
-    width: .2%;
-    padding: 50px;
-    padding-top: 0px;
+    width: 113px;
+    padding-left: 0px;
 
     vertical-align: top;
 }
 
-#category {
-    display: inline-block;
-
-    list-style-type: none;
-    margin-left: 80px;
+#styles p {
+    display: block;
 }
 
-#category li {
-    display: inline-block;
-
-    margin-top: 0px;
-    margin-left: 35px;
-    padding-left: 22px;
+.label {
+    text-align: center;
 
 }
 
 h1 {
     display: block;
 
+    margin-top: 30px;
     padding-bottom: 50px;
 
-    font-size: 4em;
+    font-size: 3em;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -172,17 +168,96 @@ h1 {
 
 /* Story */
 
+.story {
+    display: block;
+
+    border-bottom-width: 100%;
+    border-bottom: 3px dotted lightgray;
+
+    margin-top: 80px;
+}
+
 .story h2 {
     display: block;
 
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+
     margin-top: 0px;
     padding: 0px;
+    
     text-align: center;
 }
 
 .story a {
     display: block;
 
+    margin-bottom: 70px;
+
+    color: dodgerblue;
+
     text-align: center;
     text-decoration: none;
+}
+
+/* News */
+
+.news {
+    display: block;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+#weekly {
+    float: left;
+
+    position: relative;
+    left: 80px;
+
+    width: 20%;
+
+    margin-left: 0px;
+    margin-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.weekly {
+    display: block;
+
+    height: 140px;
+    margin: 0px;
+
+    border: 1px solid lightgray;
+    border-radius: 2px;
+
+}
+
+#weekly a {
+    font-size: .84em;
+
+    text-decoration: none;
+}
+
+#loop {
+    float: left;
+    
+    position: relative;
+    left: 80px;
+    
+    width: 19.5%;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#loop p {
+    color: black;
+
+    margin-left: 0px;
 }
