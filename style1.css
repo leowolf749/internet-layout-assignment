@@ -167,3 +167,22 @@ h1 {
     font-size: 4em;
     text-align: center;
 }
+
+/* Accessories */
+
+/* Story */
+
+.story h2 {
+    display: block;
+
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.story a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+}
