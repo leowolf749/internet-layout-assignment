@@ -81,6 +81,7 @@ p {
     vertical-align: top;
 }
 
+
 #cart{
     display: inline-block;
 
@@ -115,6 +116,28 @@ div .count {
     text-align: center;
 
     padding: 7px;
+}
+
+.search {
+    display: inline-block;
+    
+    margin-top: 63px;
+    margin-left: 1%;
+
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.search input {
+    display: inline;
+    margin-bottom: 4px;
+    border: none;
+}
+
+#tool {
+    display: inline;
+    width: 15px;
+    margin-top: 3px;
 }
 
 /* Ties */
@@ -252,6 +275,7 @@ h3 {
     
     width: 19.5%;
 
+    margin-right: 3%;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -260,4 +284,103 @@ h3 {
     color: black;
 
     margin-left: 0px;
+}
+
+#quarter {
+    float: left;
+
+    position: relative;
+    left: 80px;
+    
+    width: 19.5%;
+
+    margin-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#quarter p {
+    color: black;
+
+    margin-left: 0px;
+}
+
+#email {
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 3px;
+}
+
+#guide {
+    display: inline-block;
+
+    position: relative;
+    left: 80px;
+
+    width: 19.5%;
+
+    margin-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.guide {
+    display: block;
+
+    height: 140px;
+    margin: 0px;
+
+    border: 1px solid lightgray;
+    border-radius: 2px;
+
+}
+
+#guide p {
+    color: black;
+
+    margin-left: 0px;
+}
+
+/* Links */
+
+.links {
+    display: block;
+
+    background-color: whitesmoke;
+}
+
+h4 {
+    display: block;
+
+    margin: 0px;
+}
+
+#shop {
+    display: block;
+
+    position: relative;
+    left: 7%;
+
+    margin-top: 40px;
+    margin-right: 0px;
+    width: 8%;
+}
+
+.links ul {
+    display: block;
+    list-style-type: none;
+
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+
+    font-size: .9em;
+    color: gray;
 }
