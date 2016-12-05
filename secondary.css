@@ -8,7 +8,7 @@ body {
 .sale {
     display: flex;
 
-    background-color: orangered;
+    background-color: cornflowerblue;
     
     padding: 10px;
 }
@@ -45,15 +45,20 @@ p {
 .nav {
     display: block;
 
+    background-color: white;
+
     height: 150px;
 }
 
 .logo {
     display: inline-block;
-    margin-left: 58px;
+    margin-left: 10px;
+
+    border: 1px solid white;
+    border-radius: 10px;
     padding: 0px;
 
-    width: 150px;
+    height: 150px;
 }
 
 #menu {
@@ -140,46 +145,20 @@ div .count {
     margin-top: 3px;
 }
 
-/* Ties */
+/* Promo */
 
-.ties {
+.promo {
     display: block;
     background-color: whitesmoke;
 
 }
 
-#styles {
-    display: inline-block;
-    list-style-type: none;
-
-    margin-top: 0px;
-    margin-left: 120px;
-}
-
-#styles li {
-    float: left;
-    
-    margin: 0px;
-    
-    width: 113px;
-    padding-left: 0px;
-
-    vertical-align: top;
-}
-
-#styles p {
-    display: block;
-}
-
-.label {
-    text-align: center;
-
-}
 
 h1 {
     display: block;
 
     margin-top: 30px;
+    padding-top: 40px;
     padding-bottom: 50px;
 
     font-size: 3em;
@@ -187,9 +166,9 @@ h1 {
     text-align: center;
 }
 
-/* Accessories */
+/* Photos */
 
-.accessories {
+.photos {
     display: block;
 }
 
@@ -201,7 +180,7 @@ h1 {
 
 .image {
     position: relative;
-    left: 80px;
+    left: 140px;
     
     height: 200px;
 
@@ -211,30 +190,7 @@ h1 {
     border: 1px solid lightgray;
 }
 
-.accessories p {
-    position: absolute;
-    font-size: 1.35em;
-    font-weight: 300;
-    color: black;
-}
 
-.bows p {
-    position: relative;
-    left: 300px;
-    bottom: 190px;
-}
-
-.pocket p {
-    position: relative;
-    left: 300px;
-    bottom: 190px;
-}
-
-.bars p {
-    position: relative;
-    left: 300px;
-    bottom: 190px;
-}
 
 /* Story */
 
@@ -303,8 +259,6 @@ h3 {
     height: 140px;
     margin: 0px;
 
-    border: 1px solid lightgray;
-    border-radius: 2px;
 
 }
 
@@ -333,7 +287,7 @@ h3 {
     margin-left: 0px;
 }
 
-#quarter {
+#exchange {
     float: left;
 
     position: relative;
@@ -346,7 +300,7 @@ h3 {
     margin-bottom: 40px;
 }
 
-#quarter p {
+#exchange p {
     color: black;
 
     margin-left: 0px;
@@ -364,7 +318,7 @@ button {
     border-radius: 3px;
 }
 
-#guide {
+#dad {
     display: inline-block;
 
     position: relative;
@@ -377,7 +331,7 @@ button {
     margin-bottom: 40px;
 }
 
-.guide {
+.dad {
     display: block;
 
     height: 140px;
@@ -388,7 +342,7 @@ button {
 
 }
 
-#guide p {
+#dad p {
     color: black;
 
     margin-left: 0px;
