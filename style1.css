@@ -189,6 +189,53 @@ h1 {
 
 /* Accessories */
 
+.accessories {
+    display: block;
+}
+
+#container {
+    display: inline-block;
+    height: 257px;
+}
+
+
+.image {
+    position: relative;
+    left: 80px;
+    
+    height: 200px;
+
+    margin-bottom: 0px;
+    margin-right: 20px;
+
+    border: 1px solid lightgray;
+}
+
+.accessories p {
+    position: absolute;
+    font-size: 1.35em;
+    font-weight: 300;
+    color: black;
+}
+
+.bows p {
+    position: relative;
+    left: 300px;
+    bottom: 190px;
+}
+
+.pocket p {
+    position: relative;
+    left: 300px;
+    bottom: 190px;
+}
+
+.bars p {
+    position: relative;
+    left: 300px;
+    bottom: 190px;
+}
+
 /* Story */
 
 .story {
@@ -352,24 +399,71 @@ button {
 .links {
     display: block;
 
+    height: 220px;
+
     background-color: whitesmoke;
+
 }
 
 h4 {
-    display: block;
-
+    font-size: .9em;
     margin: 0px;
 }
 
 #shop {
-    display: block;
+    float: left;
 
-    position: relative;
-    left: 7%;
+    position: absolute;
+    left: 80px;
 
-    margin-top: 40px;
+    width: 10%;
+
+    margin-left: 0px;
     margin-right: 0px;
-    width: 8%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#about {
+    float: left;
+
+    position: absolute;
+    left: 200px;
+
+    width: 10%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#style {
+    float: left;
+
+    position: absolute;
+    left: 320px;
+
+    width: 10%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#help {
+    float: left;
+
+    position: absolute;
+    left: 440px;
+
+    width: 10%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .links ul {
@@ -383,4 +477,39 @@ h4 {
 
     font-size: .9em;
     color: gray;
+}
+
+/* Footer */
+
+footer {
+    display: block;
+
+    background-color: whitesmoke;
+}
+
+.copyright {
+    display: inline;
+
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    
+    margin-right: 0px;
+    padding: 0px;
+
+    height: 8px;
+}
+
+footer p {
+    display: inline;
+
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+
+    color: gray;
+    font-size: .7em;
+
+    margin: 3px;
+    
 }
